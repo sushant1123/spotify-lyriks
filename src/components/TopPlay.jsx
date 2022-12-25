@@ -8,8 +8,8 @@ import PlayPause from "./PlayPause";
 import { playPause, setActiveSong } from "../redux/features/playerSlice";
 import { useGetTopChartsQuery } from "../redux/services/shazamCoreApi";
 
-import "swiper.css";
-import "swiper.css/free-mode";
+import "swiper/css";
+import "swiper/css/free-mode";
 
 const TopPlay = () => {
 	const dispatch = useDispatch();
