@@ -4,13 +4,14 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCoreApi";
 import { Error, Loader, SongCard } from "../components";
 import { genres } from "../assets/constants";
 
-import { loadingSongs } from "../utils/constants";
+import { loadingSongs } from "../assets/constants";
 
 const Discover = () => {
 	const dispatch = useDispatch();
 	const { activeSong, isPlaying } = useSelector((state) => state.player);
 	const { data, isFetching, error } = useGetTopChartsQuery();
-	console.log({ data, error });
+
+	// console.log({ data, error });
 
 	const [genreTitle, setGenreTitle] = useState(genres[0].title);
 

@@ -1,5 +1,5 @@
 import { loader } from "../assets/index";
-import { loading } from "../utils/constants";
+import { loading } from "../assets/constants";
 
 const Loader = ({ title }) => (
 	<div className="w-full flex justify-center items-center flex-col">
