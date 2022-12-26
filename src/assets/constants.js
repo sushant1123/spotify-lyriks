@@ -26,3 +26,6 @@ export const links = [
 
 export const loadingSongs = "Loading Songs...";
 export const loading = "Loading...";
+export const topCharts = "Top Charts";
+export const topArtists = "Top Artists";
+export const seeMore = "See More";
