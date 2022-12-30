@@ -25,7 +25,14 @@ export const links = [
 ];
 
 export const loadingSongs = "Loading Songs...";
+export const searchingSongDetails = "Searching song details...";
+export const loadingArtistDetails = "Loading artist details...";
+export const loadingSongsAroundYou = "Loading songs around you...";
 export const loading = "Loading...";
 export const topCharts = "Top Charts";
+export const aroundYou = "Aroung You";
+export const discoverTopCharts = "Discover Top Charts";
 export const topArtists = "Top Artists";
 export const seeMore = "See More";
+export const lyrics = "Lyrics";
+export const lyricsNotFound = "Sorry, No lyrics found!";
