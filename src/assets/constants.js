@@ -28,6 +28,7 @@ export const loadingSongs = "Loading Songs...";
 export const searchingSongDetails = "Searching song details...";
 export const loadingArtistDetails = "Loading artist details...";
 export const loadingSongsAroundYou = "Loading songs around you...";
+export const showingResultsFor = "Showing results for";
 export const loading = "Loading...";
 export const topCharts = "Top Charts";
 export const aroundYou = "Aroung You";
