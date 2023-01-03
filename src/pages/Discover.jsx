@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useGetSongsByGenreQuery } from "../redux/services/shazamCoreAPI";
+import { useGetSongsByGenreQuery } from "../redux/services/shazamCoreAPI.js";
 import { selectGenreListId } from "../redux/features/playerSlice";
 import { Error, Loader, SongCard } from "../components";
 import { genres } from "../assets/constants";

@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { Error, Loader, SongCard } from "../components";
-import { useGetSongsBySearchQuery } from "../redux/services/shazamCoreAPI";
+import { useGetSongsBySearchQuery } from "../redux/services/shazamCoreAPI.js";
 import { loadingSongsAroundYou, showingResultsFor } from "../assets/constants";
 
 const Search = () => {

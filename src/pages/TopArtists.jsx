@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Error, Loader, ArtistCard } from "../components";
-import { useGetTopChartsQuery } from "../redux/services/shazamCoreAPI";
+import { useGetTopChartsQuery } from "../redux/services/shazamCoreAPI.js";
 import { discoverTopCharts, loadingSongsAroundYou, topArtists } from "../assets/constants";
 
 const TopArtists = () => {
