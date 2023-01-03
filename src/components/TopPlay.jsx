@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import { seeMore, topArtists, topCharts } from "../assets/constants";
 
-const TopChartCard = (song, i, isPlaying, activdSong, handlePauseClick, handlePlayClick) => {
+const TopChartCard = (song, i, isPlaying, activeSong, handlePauseClick, handlePlayClick) => {
 	return (
 		<div
 			className="w-full flex flex-row items-center hover:bg-[#4c426e] py-2 p-4 rounded-lg cursor-pointer mb-2"
