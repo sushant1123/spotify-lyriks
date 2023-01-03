@@ -7,7 +7,7 @@ import {
 	useGetArtistDetailsQuery,
 	useGetSongDetailsQuery,
 	useGetSongRelatedQuery,
-} from "../redux/services/shazamCoreApi";
+} from "../redux/services/shazamCoreAPI";
 
 const ArtistDetails = () => {
 	const { id: artistId } = useParams();
